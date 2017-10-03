@@ -42,4 +42,4 @@ The ```views/pizza.html``` was optimized by modifying ```views/js/main.js``` in 
                 }
               }
          
-4.	the number of sliding pizzas were reduced from 200 to 27
+4.	The number of sliding pizzas were reduced from 200 to 27
