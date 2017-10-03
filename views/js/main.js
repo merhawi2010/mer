@@ -422,7 +422,7 @@ var resizePizzas = function(size) {
   changeSliderLabel(size);
 
 
-
+//function determineDx (elem, size) does not contribute to the resizing of pizza and hence removed
     // Changes the slider value to a percent width
     function sizeSwitcher (size) {
       switch(size) {
@@ -439,11 +439,10 @@ var resizePizzas = function(size) {
 
     var newSize = sizeSwitcher(size);
 
-
   // Iterates through pizza elements on the page and changes their widths
-  var randomPizza = document.querySelectorAll(".randomPizzaContainer");
-
   function changePizzaSizes(size) {
+    //document.querySelectorAll(".randomPizzaContainer") repeated itself placed in randomPizza variable outside the forLoop
+    var randomPizza = document.querySelectorAll(".randomPizzaContainer");
     for (var i = 0; i < randomPizza.length; i++) {
       randomPizza[i].style.width = newSize + "%";
     }
@@ -498,7 +497,6 @@ function updatePositions() {
   var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 
   for (var i = 0; i < items.length; i++) {
-
     var phase = Math.sin((scrollTop / 1250) + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
@@ -520,6 +518,7 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+  //reduce the number of Pizzas sliding on the page
   for (var i = 0; i < 27; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
