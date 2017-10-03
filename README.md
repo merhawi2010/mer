@@ -1,9 +1,8 @@
 ## Website Performance Optimization portfolio project
 
-###Introduction 
-This is the fifth project for [front end web development Nano Degree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) at the Udacity. The main aim is to optimize the online portfolio and achieve a score of at least 90 ([pageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)) for both mobile and desktop users. Hence the critical rendering path was optimized using different techniques thought during the course.
+### Introduction 
+This is the fifth project for [Front End Web Development Nano Degree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) at the Udacity. The main aim is to optimize the online portfolio and achieve a score of at least 90 ([pageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)) for both mobile and desktop users. Hence the critical rendering path was optimized using different techniques thought during the course.
 
-To get started, check out the repository and inspect the code.
 
 ### How to run the Portfolio 
 The entire optimized portfolio is hosted at GitHub. The page can be accessed from [this link](https://merhawi2010.github.io). To inspect the code please clone the portfolio from my GitHub repository at  ```https://github.com/merhawi2010/merhawi2010.github.io.git```
